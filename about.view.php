@@ -9,22 +9,18 @@
     <header>
         <h1>Travel Paradise</h1>
     </header>
-    <nav>
-        <ul><li><a href="index.php">Home</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Booking</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Sign In</a></li>
-        </ul>
+    <nav><ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="discover.php">Discover</a></li>
+            <li><a href="booking.php">Booking</a></li>
+            <li><a href="signin.php">Sign In</a></li>
+</ul>
     </nav>
     <div class="container">
 
-        <h2>Welcome to Travel Buddy</h2>
+        <h2>Welcome to About page</h2>
         <p>Explore the world's most amazing destinations with us.</p><br>
-        <p>this is about page</p><br>
-        <p>hello</p><br>
-        <p>hello</p><br>
-        <p>hello</p><br>
+        
     </div>
     <footer>
     <div class="container">
