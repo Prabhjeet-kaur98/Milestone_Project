@@ -13,6 +13,7 @@
             <li><a href="discover.php">Discover</a></li>
             <li><a href="booking.php">Booking</a></li>
             <li><a href="about.php">About</a></li>
+            <li><a href="signin.php">Home</a></li>
             
         </ul>
     </nav>
