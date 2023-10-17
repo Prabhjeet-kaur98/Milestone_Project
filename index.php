@@ -19,7 +19,11 @@
     <div class="container">
 
         <h2>Welcome to Travel Buddy</h2>
-        <p>Explore the world's most amazing destinations with us.</p>
+        <p>Explore the world's most amazing destinations with us.</p><br>
+        <p>hello</p><br>
+        <p>hello</p><br>
+        <p>hello</p><br>
+        <p>hello</p><br>
     </div>
     <footer>
     <div class="container">
