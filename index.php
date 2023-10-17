@@ -15,5 +15,10 @@
             <li><a href="#">Sign In</a></li>
         </ul>
     </nav>
+    <div class="container">
+
+        <h2>Welcome to Travel Buddy</h2>
+        <p>Explore the world's most amazing destinations with us.</p>
+    </div>
 </body>
 </html>
