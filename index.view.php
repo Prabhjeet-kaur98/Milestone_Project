@@ -12,7 +12,7 @@
         <ul>
             <li><a href="#">Discover</a></li>
             <li><a href="#">Booking</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="about.php">About</a></li>
             <li><a href="#">Sign In</a></li>
         </ul>
     </nav>
