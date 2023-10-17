@@ -8,14 +8,7 @@
     <header>
         <h1>Travel Paradise</h1>
     </header>
-    <nav>
-        <ul> <li><a href="index.php">Home</a></li>
-        <li><a href="discover.php">Home</a></li>
-            <li><a href="booking.php">Booking</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="signin.php">Sign In</a></li>
-        </ul>
-    </nav>
+    <?php require('partials/nav.php') ?>
     <div class="container">
 
         <h2>Welcome to Discover page</h2>
