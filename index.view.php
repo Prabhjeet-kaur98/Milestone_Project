@@ -10,20 +10,16 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Booking</a></li>
+            <li><a href="discover.php">Discover</a></li>
+            <li><a href="booking.php">Booking</a></li>
             <li><a href="about.php">About</a></li>
-            <li><a href="#">Sign In</a></li>
+            <li><a href="signin.php">Sign In</a></li>
         </ul>
     </nav>
     <div class="container">
 
         <h2>Welcome to Travel Buddy</h2>
         <p>Explore the world's most amazing destinations with us.</p><br>
-        <p>hello</p><br>
-        <p>hello</p><br>
-        <p>hello</p><br>
-        <p>hello</p><br>
     </div>
     <footer>
     <div class="container">
