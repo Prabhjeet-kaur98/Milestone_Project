@@ -1,3 +1,3 @@
 <?php
-require "signin.view.php";
+require "views/signin.view.php";
 ?>
