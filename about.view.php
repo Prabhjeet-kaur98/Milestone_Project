@@ -10,7 +10,7 @@
         <h1>Travel Paradise</h1>
     </header>
     <nav>
-        <ul>
+        <ul><li><a href="index.php">Home</a></li>
             <li><a href="#">Discover</a></li>
             <li><a href="#">Booking</a></li>
             <li><a href="#">About</a></li>
@@ -21,7 +21,7 @@
 
         <h2>Welcome to Travel Buddy</h2>
         <p>Explore the world's most amazing destinations with us.</p><br>
-        <p>hello</p><br>
+        <p>this is about page</p><br>
         <p>hello</p><br>
         <p>hello</p><br>
         <p>hello</p><br>
