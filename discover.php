@@ -1,3 +1,3 @@
 <?php
-require "discover.view.php";
+require "views/discover.view.php";
 ?>
