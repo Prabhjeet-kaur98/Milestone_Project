@@ -14,17 +14,15 @@
         <img src="images/hotel_2.jpg" alt="Luxurious Hotels">
         <h4>Explore Luxurious Hotels</h4>
         <p>Discover comfort and luxury at our handpicked hotels. Whether you're seeking a beachfront resort, a cozy mountain lodge, or a historic city hotel, we have the perfect accommodations for your stay.</p>
-    </div>
 
     <!-- Food Section -->
-    <div class="category">
+    
         <img src="images/food.jpg" alt="Culinary Delights">
         <h4>Savor Culinary Delights</h4>
         <p>Indulge in the local flavors of your destination. Sample delicious cuisine, from street food to fine dining. Our expertly curated food tours will take your taste buds on a journey you won't forget.</p>
-    </div>
+
 
     <!-- Nature Section -->
-    <div class="category">
         <img src="images/nature.jpg" alt="Connect with Nature">
         <h4>Connect with Nature</h4>
         <p>Immerse yourself in the beauty of nature. From lush forests to serene beaches, our guided nature tours will help you discover the wonders of the great outdoors. Explore hiking trails, go bird-watching, or simply relax on pristine beaches.</p>
