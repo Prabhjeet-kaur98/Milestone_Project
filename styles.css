@@ -11,7 +11,7 @@ body {
 header {
     background-color: #333;
     color: #ae1212;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 nav {
@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #ae1212;
+    background-color: #dd9595;
 }
 .container {
     max-width: 1200px;
