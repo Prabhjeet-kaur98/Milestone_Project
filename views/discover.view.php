@@ -11,7 +11,26 @@
         <li>Book your dream vacation with ease</li>
         <li>Learn more about the places you'll visit</li>
     </ul>
-
+    <h3>Featured Destinations</h3>
+    <div class="featured-destinations">
+        <div class="destination">
+            <img src="images/destination_1.jpg" alt="Destination 1">
+            <h4>Exotic Beach Getaway</h4>
+            <p>Relax on pristine beaches and enjoy crystal-clear waters.</p>
+        </div>
+        <div class="destination">
+            <img src="images/destination_2.jpg" alt="Destination 2">
+            <h4>Mountain Adventure</h4>
+            <p>Embark on thrilling mountain expeditions and witness breathtaking views.</p>
+        </div>
+        <div class="destination">
+            <img src="images/city.jpg" alt="Destination 3">
+            <h4>Historical Tours</h4>
+            <p>Explore the rich history and culture of our destinations.</p>
+        </div>
     </div>
+</div>
+
+    
     
     <?php require('partials/footer.php') ?>
