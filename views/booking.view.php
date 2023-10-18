@@ -1,8 +1,8 @@
 <?php require('partials/head.php') ?>
     <?php require('partials/nav.php') ?>
-    div class="booking-container"> <!-- Updated class name -->
+
         <h2>Booking</h2>
-        <form class="booking-form"> <!-- Updated class name -->
+        <form class="booking-form">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required>
             
