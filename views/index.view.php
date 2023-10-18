@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    
-<link rel="stylesheet"  href="styles.css">
-</head>
-<body>
-   
-    <header>
-        <h1>Travel Paradise</h1>
-    </header>
+<?php require('partials/head.php') ?>
     <?php require('partials/nav.php') ?>
-    
     <div class="container">
 
         <h2>Welcome to Travel Buddy</h2>
@@ -21,6 +10,5 @@
         <p>&copy; 2023 Travel Buddy</p>
     </div>
 </footer>
-
 </body>
 </html>
