@@ -52,32 +52,53 @@ nav ul li a:hover {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 20px;
+    padding: 40px;
     margin-top: 20px;
 }
 
 .category h4 {
-    color: #333;
+    color: #0000;
 }
 
 /* Style for the "Top Things to Do" section */
 .category img {
     max-width:20%;
+    padding: 20px 20px;
 }
 h3 {
     margin-top: 40px;
 }
 
 /* Additional styling */
-h1, h2, h3 {
-    color: #333;
-}
+
 
 p {
-    color: #666;
+    color: #0000;
     font-size: large;
-    font-style: oblique;
+    font-style:inherit;
+}
 
+/* Featured Destinations Styles */
+.featured-destinations {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+}
+
+.destination {
+    width: 100%; /* Full width of the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.destination img {
+    max-width: 50%;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 footer {
