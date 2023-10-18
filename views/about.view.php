@@ -7,11 +7,5 @@
         <p>Explore the world's most amazing destinations with us.</p><br>
         
     </div>
-    <footer>
-    <div class="container">
-        <p>&copy; 2023 Travel Buddy</p>
-    </div>
-</footer>
-
-</body>
-</html>
+    
+    <?php require('partials/footer.php') ?>
