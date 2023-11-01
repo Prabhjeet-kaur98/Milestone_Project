@@ -6,7 +6,7 @@ body, h1, p, ul {
 
 /* Body styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif; /* Use "Open Sans" as the main font */
     background-color: #E7F0F8; /* Background color using the new color scheme */
 }
 
@@ -134,7 +134,7 @@ p {
 
 /* Sign In container styles */
 .sign-in-container {
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif; /* Use "Open Sans" for the sign-in container */
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -203,5 +203,3 @@ p {
     padding: 20px;
     text-align: center;
 }
-
-/*
