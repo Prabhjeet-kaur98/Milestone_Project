@@ -1,22 +1,27 @@
+/* Reset some default styles */
 body, h1, p, ul {
     margin: 0;
     padding: 0;
 }
+
+/* Body styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #7a6b6b;
-
+    background-color: #E7F0F8; /* Background color using the new color scheme */
 }
 
+/* Header styles */
 header {
     background-color: #333;
-    color: #ae1212;
+    color: #0077B6; /* Main Accent color for the header text */
     padding: 20px 0;
     text-align: center;
 }
+
+/* Navigation styles */
 nav {
-    background-color:  #ae1212;
-    text-align: right; 
+    background-color: #0096C7; /* Complementary Accent color for the navigation */
+    text-align: right;
 }
 
 nav ul {
@@ -35,20 +40,25 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #dd9595;
+    background-color: #FF9900; /* Highlight color for the navigation hover effect */
 }
+
+/* Container styles */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #fff; /* Background color for the main content area */
 }
+
+/* Image styles */
 .large-image {
     max-width: 70%;
     height: 50%;
     text-align: center;
 }
 
-/* Style for category sections */
+/* Category section styles */
 .category {
     background-color: #000;
     border: 1px solid #ddd;
@@ -58,37 +68,39 @@ nav ul li a:hover {
     flex-direction: row;
 }
 
+/* Category title styles */
 .category h4 {
     color: #0000;
 }
 
-/* Style for the "Top Things to Do" section */
+/* Category image styles */
 .category img {
-    max-width:20%;
+    max-width: 20%;
     padding: 20px 20px;
 }
+
+/* Section title styles */
 h3 {
     margin-top: 40px;
 }
 
-/* Additional styling */
-
-
+/* General text styles */
 p {
-    color: floralwhite;
+    color: #333333; /* Text color using the new color scheme */
     font-size: large;
-    font-style:inherit;
+    font-style: inherit;
 }
 
-/* Featured Destinations Styles */
+/* Featured Destinations styles */
 .featured-destinations {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
+/* Destination styles */
 .destination {
-    width: 100%; /* Full width of the container */
+    width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     padding: 20px;
@@ -97,12 +109,14 @@ p {
     text-align: center;
 }
 
+/* Destination image styles */
 .destination img {
     max-width: 50%;
     border-radius: 5px;
     margin-bottom: 10px;
 }
-/* Add this code to style the info box */
+
+/* Info box styles */
 .info-box {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
@@ -111,13 +125,14 @@ p {
     margin-top: 20px;
 }
 
+/* Info box text styles */
 .info-box p {
     font-size: 1.1em;
     line-height: 1.5;
     color: #555;
 }
 
-/* css for "Sign In" page */
+/* Sign In container styles */
 .sign-in-container {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -126,32 +141,37 @@ p {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #fff; /* Background color for the sign-in container */
 }
 
+/* Sign In box styles */
 .sign-in-container {
-    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
 }
 
+/* Sign In title styles */
 .sign-in-container h2 {
     font-size: 2em;
     color: #333;
     margin-bottom: 20px;
 }
 
+/* Sign In form styles */
 .sign-in-container form {
     display: flex;
     flex-direction: column;
 }
 
+/* Sign In form label styles */
 .sign-in-container label {
     font-weight: bold;
     margin-bottom: 5px;
 }
 
+/* Sign In form input styles */
 .sign-in-container input {
     padding: 10px;
     margin-bottom: 15px;
@@ -160,6 +180,7 @@ p {
     font-size: 1em;
 }
 
+/* Sign In button styles */
 .sign-in-container button {
     background-color: #333;
     color: #fff;
@@ -170,63 +191,17 @@ p {
     font-size: 1em;
 }
 
+/* Sign In button hover styles */
 .sign-in-container button:hover {
     background-color: #555;
 }
 
-
-/* code for "Booking" page */
+/* Booking container styles */
 .booking-container {
-    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
 }
 
-.booking-container h2 {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.booking-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.booking-form label {
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.booking-form input,
-.booking-form select {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1em;
-}
-
-.booking-form button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-}
-
-.booking-form button:hover {
-    background-color: #555;
-}
-
-
-footer {
-    background-color: #333;
-    color:  #ae1212;
-    padding: 10px 0;
-    text-align: center;
-}
+/*
