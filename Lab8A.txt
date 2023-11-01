@@ -3,3 +3,6 @@ Color Scheme: Consider refining your color scheme to make it more visually appea
 
 # Chatgpt suggest me to change font style
 Font Style:Changing the font style can have a significant impact on the overall look and feel of your website. 
+
+# Chatgpt suggest me to update my navigation bar
+Navigation Bar: Your navigation bar could be more user-friendly. Consider improving the layout and navigation options. You might also add links to different sections of your website.   
