@@ -1,4 +1,10 @@
-    <?php require('partials/head.php') ?>
+   <?php
+   session_start();
+
+   $_SESSION;
+   ?>
+
+   <?php require('partials/head.php') ?>
     <?php require('partials/nav.php') ?>
     <div class="container">
 
