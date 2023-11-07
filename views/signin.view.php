@@ -1,7 +1,7 @@
 <?php require('partials/head.php') ?>
     <?php require('partials/nav.php') ?>
-    <div class="sign-in-container"> <!-- Updated class name -->
-        <form>
+    <div class="sign-in-container">
+   <form>
             <label for="username">Username</label>
             <input type="text" id="username" name="username" required>
             
