@@ -59,6 +59,9 @@ large-image {
     height: 40%;
     text-align: center;
 }
+.img_1{
+    width: 100%;
+}
 
 /* Category section styles */
 .category {
@@ -183,7 +186,7 @@ p {
 }
 
 /* Sign In button styles */
-.sign-in-container button {
+.sign-in-container .button {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
@@ -194,7 +197,7 @@ p {
 }
 
 /* Sign In button hover styles */
-.sign-in-container button:hover {
+.sign-in-container .button:hover {
     background-color: #555;
 }
 
