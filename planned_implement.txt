@@ -1,0 +1,13 @@
+
+                Planned Implementation
+  
+My name is Prabhjeet Kaur. I wanted to share some valuable feedback I received during a recent project discussion. One of my peers highlighted a few areas of improvement in my project, and I am committed to addressing these issues to enhance the overall quality of my work.
+Feedback from peers: 
+Firstly, there were concerns raised about the security of user passwords. To address this, I have decided to implement more robust password hashing techniques. I will be referring to PHP book code and reviewing Laracast videos to gain a better understanding of best practices in securing login information. This update is crucial to ensuring the confidentiality and integrity of user credentials.
+Additionally, there were observations about the home page, specifically regarding text color and background color. I acknowledge the importance of a visually appealing and user-friendly interface, and I am committed to rectifying these concerns. I will carefully review the design aspects of my home page, making necessary adjustments to improve text color readability and background color aesthetics.
+How to implement changes:
+ To implement these changes effectively, I have set a goal to complete these fixes by Milestone 4 of the project. I am confident that with the resources at my disposal, including PHP book code and Laracast videos, I will be able to enhance the security features of my project and improve the overall user experience by addressing the mentioned design issues.
+I appreciate the constructive feedback provided by my peers, as it helps me grow and refine my skills as a developer. Thank you for your understanding, and I am excited to showcase the improvements in my project upon completion.
+Best regards,
+Prabhjeet Kaur
+
