@@ -36,4 +36,8 @@ require($proj_root . 'partials/nav.php');
 
     
     
- <?php require('partials/footer.php') ?>
+<?php
+// Include Footer File
+require($proj_root . 'partials/footer.php');
+?>
+   
