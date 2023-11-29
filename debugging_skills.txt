@@ -1,5 +1,109 @@
 #  Applying Debugging Skills
 # Step 1: Set PHP Error Levels
+# Debugging code for my file
+<?php
+// Set PHP error levels for test environment
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+
+// ... rest of your existing code ...
+
+// Enable PHP error levels for the test environment
+/*
+error_reporting(0);
+ini_set('display_errors', 0);
+ini_set('display_startup_errors', 0);
+*/
+
+?>
+
+<?php require('partials/head.php') ?>
+<?php require('partials/nav.php') ?>
+
+<div class="container">
+    <h2>Booking</h2>
+    <form class="booking-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="destination">Destination</label>
+        <select id="destination" name="destination" required>
+            <option value="beach">Exotic Beach Getaway</option>
+            <option value="mountain">Mountain Adventure</option>
+            <option value="historical">Historical Tours</option>
+        </select>
+
+        <button type="submit">Book Now</button>
+    </form>
+</div>
+
+<?php
+// Dump the Variables section
+$test_variable = "Hello, World!";
+var_dump($test_variable);
+// Add the results to a comment:
+// $test_variable_dump = var_export($test_variable, true);
+// echo $test_variable_dump;
+?>
+
+<h3>Top Things to Do</h3>
+
+<!-- Hotels Section -->
+<div class="category">
+    <img src="images/hotel_2.jpg" alt="Luxurious Hotels">
+    <h4>Explore Luxurious Hotels</h4>
+    <p>Discover comfort and luxury at our handpicked hotels. Whether you're seeking a beachfront resort, a cozy mountain lodge, or a historic city hotel, we have the perfect accommodations for your stay.</p>
+</div>
+
+<!-- Food Section -->
+<div class="category">
+    <img src="images/food.jpg" alt="Culinary Delights">
+    <h4>Savor Culinary Delights</h4>
+    <p>Indulge in the local flavors of your destination. Sample delicious cuisine, from street food to fine dining. Our expertly curated food tours will take your taste buds on a journey you won't forget.</p>
+</div>
+
+<!-- Nature Section -->
+<div class="category">
+    <img src="images/nature.jpg" alt="Connect with Nature">
+    <h4>Connect with Nature</h4>
+    <p>Immerse yourself in the beauty of nature. From lush forests to serene beaches, our guided nature tours will help you discover the wonders of the great outdoors. Explore hiking trails, go bird-watching, or simply relax on pristine beaches.</p>
+</div>
+
+<p>Our mission is to provide travelers with unforgettable experiences. We believe that travel has the power to broaden horizons, foster understanding, and create lasting memories. We're dedicated to making your journey as seamless and enjoyable as possible.</p>
+
+<?php
+// Stack Trace section
+/*
+try {
+    // Code that may cause an issue
+} catch (Exception $e) {
+    // Output the stack trace
+    echo 'Caught exception: ',  $e->getMessage(), "\n";
+    echo $e->getTraceAsString();
+}
+*/
+
+// Manual Breakpoint
+/*
+echo 'Before Breakpoint';
+die(); // This acts as a breakpoint
+echo 'After Breakpoint';
+*/
+
+// Custom Error Log
+/*
+ini_set('log_errors', 1);
+ini_set('error_log', '/path/to/your/error.log');
+*/
+
+require('partials/footer.php');
+?>
+
+
 <?php
 // Enable PHP error levels for test environment
 error_reporting(E_ALL);
@@ -50,29 +154,5 @@ try {
 */
 
 ?>
-step 5. Manual Breakpoint:
-<?php
-// Manual Breakpoint
-/*
-echo 'Before Breakpoint';
-die(); // This acts as a breakpoint
-echo 'After Breakpoint';
-*/
 
 
-?>
-
-step 6. Custom Error Log:
-Follow the guide to add a custom error log:
-
-php
-Copy code
-<?php
-// Custom Error Log
-/*
-ini_set('log_errors', 1);
-ini_set('error_log', '/path/to/your/error.log');
-*/
-
-
-?>
