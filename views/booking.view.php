@@ -22,4 +22,8 @@ require($proj_root . 'partials/nav.php');
             <button type="submit">Book Now</button>
         </form>
     </div>
-    <?php require('partials/footer.php') ?>
+    <?php
+// Include Footer File
+require($proj_root . 'partials/footer.php');
+?>
+   
