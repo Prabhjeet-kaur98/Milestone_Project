@@ -23,3 +23,14 @@ ini_set('display_startup_errors', 0);
 */
 
 
+# step 3:  Dump the Variables section:
+<?php
+// Dump the Variables section
+/*
+var_dump($your_variable);
+// Add the results to a comment:
+// $your_variable_dump = var_export($your_variable, true);
+// echo $your_variable_dump;
+*/
+
+?>
