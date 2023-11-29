@@ -1,1 +1,7 @@
 #  Applying Debugging Skills
+# Step 1: Set PHP Error Levels
+<?php
+// Enable PHP error levels for test environment
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
