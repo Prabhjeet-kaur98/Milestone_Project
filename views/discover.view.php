@@ -1,5 +1,8 @@
-<?php require('partials/head.php') ?>
-    <?php require('partials/nav.php') ?>
+<?php
+// Include Connection and Functions Files
+require($proj_root . 'partials/head.php');
+require($proj_root . 'partials/nav.php');
+?>
     <div class="container">
 
     <h2>Discover</h2>
