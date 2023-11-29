@@ -34,3 +34,30 @@ var_dump($your_variable);
 */
 
 ?>
+
+
+# step 4:  Stack Trace section
+<?php
+// Stack Trace section
+/*
+try {
+    // Code that may cause an issue
+} catch (Exception $e) {
+    // Output the stack trace
+    // echo 'Caught exception: ',  $e->getMessage(), "\n";
+    // echo $e->getTraceAsString();
+}
+*/
+
+?>
+step 5. Manual Breakpoint:
+<?php
+// Manual Breakpoint
+/*
+echo 'Before Breakpoint';
+die(); // This acts as a breakpoint
+echo 'After Breakpoint';
+*/
+
+
+?>
