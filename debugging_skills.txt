@@ -5,3 +5,21 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
+
+
+
+# step 2: Enable PHP error levels for the test environment:
+<?php
+// Block for test environment
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+
+// Block for production environment
+/*
+error_reporting(0);
+ini_set('display_errors', 0);
+ini_set('display_startup_errors', 0);
+*/
+
+
