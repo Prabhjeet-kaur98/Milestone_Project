@@ -7,6 +7,7 @@ session_start();
 	$user_data = check_login($con);
 
 ?>
-<?php
-require "views/index.view.php";
+<?php include($proj_root . "index");
+
+$proj_root = $_SERVER['DOCUMENT_ROOT'] . "proj_root";
 ?>
