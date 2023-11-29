@@ -61,3 +61,18 @@ echo 'After Breakpoint';
 
 
 ?>
+
+step 6. Custom Error Log:
+Follow the guide to add a custom error log:
+
+php
+Copy code
+<?php
+// Custom Error Log
+/*
+ini_set('log_errors', 1);
+ini_set('error_log', '/path/to/your/error.log');
+*/
+
+
+?>
