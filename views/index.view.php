@@ -29,7 +29,7 @@
         <h4>Connect with Nature</h4>
         <p>Immerse yourself in the beauty of nature. From lush forests to serene beaches, our guided nature tours will help you discover the wonders of the great outdoors. Explore hiking trails, go bird-watching, or simply relax on pristine beaches.</p>
     </div>
-    <p>Our mission is to provide travelers with unforgettable experiences. We believe that travel has the power to broaden horizons, foster understanding, and create lasting memories. We're dedicated to making your journey as seamless and enjoyable as possible.</p>
+    <p class="para">Our mission is to provide travelers with unforgettable experiences. We believe that travel has the power to broaden horizons, foster understanding, and create lasting memories. We're dedicated to making your journey as seamless and enjoyable as possible.</p>
 </div>
 
 
