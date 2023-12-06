@@ -1,0 +1,46 @@
+        Milestone 4
+
+I am writing to provide an update on the current status of our project and to share the progress made in resolving various issues.
+
+Throughout the development process, I encountered a variety of challenges on both the front and back end of the project. These issues were meticulously documented in the milestone report as per your instructions. I want to assure you that I have diligently worked on addressing each of these challenges.
+
+In the front end, I tackled issues related to specific issues such as design inconsistencies, etc. To enhance the user experience, I implemented new design of booking and sign up page. These adjustments have significantly improved the overall visual appeal and usability of the front-end components.
+
+Simultaneously, on the back end, I faced challenges pertaining to [specific issues such as database connectivity, server errors, etc.]. Through careful debugging and optimization, I successfully resolved these issues. The back-end functionality is now robust, ensuring seamless communication with the front-end components.
+
+I have documented the complete list of resolved issues in the milestone report, as well as on GitHub through the opening of corresponding issues. Each issue on GitHub includes detailed information about the problem, the steps taken for resolution, and any relevant code changes made.
+
+
+
+Target features.
+Also, I am pleased to report that I have successfully completed all the target features outlined in the Milestone 4 plan. The list of these features has been meticulously documented in the milestone report, and corresponding GitHub Issues have been created to track their implementation. The repository now serves as a comprehensive record of the planned features and their successful execution.
+
+In addition to the planned features, I received valuable feedback from both instructors and peers during the development process. Acting upon this feedback, I made several improvements to the application. Specifically, I addressed the following:
+
+Website Color Theme: Based on suggestions from peers, I implemented a change in the website color theme to enhance visual appeal and consistency.
+
+
+Design Inconsistency in Home Page: I identified and resolved design inconsistencies on the home page, ensuring a harmonious layout with appropriate background colors and text.
+
+Database Connectivity Issues: During the database integration phase, I encountered issues when connecting to the cPanel. After thorough debugging and troubleshooting, I successfully resolved these issues, ensuring seamless communication between the application and the database.
+
+Zoom Issue on cPanel: While connecting the application to the cPanel, I faced a challenge where all website pages would zoom up. I resolved this issue, and the application now functions correctly on both cPanel and localhost environments.
+
+Furthermore, for Milestone 4, I expanded the scope by adding new pages and functionalities. Notably, I designed and implemented a booking table page and a signup page, incorporating new features to enhance the overall user experience.
+
+Upon receiving feedback during Milestone 3, a peer suggested the inclusion of password hashing for improved security in the signup process. I am pleased to inform you that I have promptly acted on this recommendation and successfully integrated password hashing into the signup page.
+
+This security enhancement ensures that user passwords are securely stored in the database, contributing to the overall robustness of the authentication system.
+
+All these updates and improvements are documented in the GitHub repository, providing a transparent overview of the development process and showcasing the commitment to addressing feedback and continuously enhancing the application.
+
+
+
+ 
+
+
+ 
+	
+
+
+
