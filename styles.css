@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #FF9900; /* Highlight color for the navigation hover effect */
+    background-color: #ff006e /* Highlight color for the navigation hover effect */
 }
 
 /* Container styles */
@@ -218,9 +218,11 @@ p {
 h2 {
     text-align: center;
     color: #333;
+    padding-top: 5%;
   }
   
   form {
+    padding-bottom: 20%;
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
@@ -230,7 +232,6 @@ h2 {
   
   label {
     display: block;
-    margin-bottom: 30px;
     color: #333;
   }
   
@@ -254,15 +255,55 @@ h2 {
     background-color: #555;
   }
   
-  /* Remove the duplicate styles for nav and footer */
   footer {
     background-color: #0096C7;
     color: white;
     padding: 10px 0;
     text-align: center;
+    margin-top: 10%;
+
 }
 
 .footer {
     color: black;
 }
 
+.services_page {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #0096C7; /* Light gray background */
+}
+
+.services_page li {
+    padding: 15px;
+    margin: 5px 0;
+    border-bottom: 1px solid #CCCCCC; /* Light gray border between list items */
+}
+
+.services_page li:last-child {
+    border-bottom: none; /* Remove the border for the last list item */
+}
+
+/* Custom color for the list items */
+.services_page li::before {
+    content: '\2022'; /* Bullet point character */
+    color: #0096C7; /* Same color as the footer */
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #0096C7; /* Button color */
+    color: white; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #007399; /* Darker color on hover */
+}
